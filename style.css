@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&family=Roboto&display=swap');
+
+main {
+  background-color: rgb(217, 249, 239);
+  padding: 2% 1.5% 1% 1.5%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 30px;
+  color: white;
+  width: 96vw;
+}
+
+.topleft {
+  padding: 1% 5%;
+}
+.topright #illustrationA {
+  margin-right: 10vw;
+  width: 20vw;
+  aspect-ratio: 1.5/1;
+  padding: 1%;
+  /* border: 2px solid black; */
+}
+
+header > .topleft > h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+}
+
+header > .topleft > p {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 1.7em;
+}
+
+.topleft span {
+  font-weight: bold;
+  font-size: 1.1em;
+}
