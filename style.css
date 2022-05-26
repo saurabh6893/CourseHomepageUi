@@ -389,7 +389,7 @@ footer{
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  
+  background-color: rgb(255, 230, 234);
 }
 
 .fmain div .middle > *{
@@ -398,7 +398,24 @@ footer{
 
 /* Four tabs section */
 
+.fmain .mtt{
+  position: relative;
+  background-color:var(--back-color-2);
+  width: 40%;  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 1% 2% 1% 2%;
+  padding: 1% 0 1% 0;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
 
+.fmain .mtt .middle{
+  background-color:var(--back-color-2);
+}
   /* why liberate tab  */
 
   .fmain .wlt img{
@@ -409,8 +426,56 @@ footer{
   margin: 0 2% 0 5%;
 }
  
+ /* Weekly quiz tab */
+  .fmain .wlt{
+position: relative;
+  background-color: rgb(255, 222, 227);
+  width: 40%;  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 1% 2% 1% 2%;
+  padding: 1% 0 1% 0;
+  font-family: 'Encode Sans Condensed', sans-serif;  }
+
+.fmain .wlt .middle{
+  background-color: rgb(255, 222, 227);
+}
+
+.fmain .ppt{
+  position: relative;
+  background-color:var(--back-color-2);
+  width: 40%;  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 1% 2% 1% 2%;
+  padding: 1% 0 1% 0;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.fmain .ppt img{
+  background-color: green;
+  border-color:green;
+}
+
+.fmain .ppt .middle{
+  background-color:var(--back-color-2);
+}
+
+.fmain .wqt img{
+  background-color:rgb(255, 102, 0);
+  border-color: rgb(255, 102, 0);
+}
 
 
+/* //Primary Purpose Tab */
 /* .diagnostic::before {
   content: '';
   height: 50px;
