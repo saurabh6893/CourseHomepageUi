@@ -423,7 +423,7 @@ footer {
 .fmain .mtt {
   position: relative;
   background-color: var(--back-color-2);
-  width: 40%;
+
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -452,7 +452,7 @@ footer {
 .fmain .wlt {
   position: relative;
   background-color: rgb(255, 222, 227);
-  width: 40%;
+  /* width: 40%; */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -471,7 +471,7 @@ footer {
 .fmain .ppt {
   position: relative;
   background-color: var(--back-color-2);
-  width: 40%;
+  /* width: 40%; */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -514,6 +514,9 @@ footer {
     font-size: 1.2rem;
     margin: 0 5% 13% 5%;
   }
+  .fmain div {
+    width: 90%;
+  }
 }
 @media (max-width: 1240px) {
   body {
@@ -523,6 +526,7 @@ footer {
   .mid {
     flex-direction: column;
   }
+
   .mid > * {
     width: 100%;
     margin: 10px 0;
@@ -541,9 +545,7 @@ footer {
     margin: 0;
     padding-bottom: 10%;
   }
-  .middle {
-    width: 60vw;
-  }
+
   main {
     padding: 0;
   }
