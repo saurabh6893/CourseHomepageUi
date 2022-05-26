@@ -497,7 +497,7 @@ footer {
 }
 @media (max-width: 1715px) {
   body {
-    background-color: red;
+    background-color: var(--back-color-2);
   }
   .b {
     font-size: 1.2rem;
@@ -505,7 +505,7 @@ footer {
 }
 @media (max-width: 1430px) {
   body {
-    background-color: red;
+    background-color: var(--back-color-2);
     overflow-x: hidden;
   }
   .b {
