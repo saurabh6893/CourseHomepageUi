@@ -335,7 +335,10 @@ aside {
 footer{
   margin-top: 2%;
   position: relative;
-  width: 100%;
+  width: auto;
+  padding: 1%;
+  padding-bottom:1.5%;
+  border-radius:30px ;
   background-color:white;
 }
 
@@ -350,6 +353,12 @@ footer{
   padding-bottom:1%;
 }
 
+.fmain{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+}
+
 .fmain div{
   position: relative;
   background-color: rgb(255, 230, 234);
@@ -359,23 +368,48 @@ footer{
   justify-content: flex-start;
   align-items: center;
   border-radius: 30px;
-  margin: 0;
   font-weight: bold;
+  margin: 1% 2% 1% 2%;
+  padding: 1% 0 1% 0;
   font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 .fmain div img{
-  
+  background-color: blue;
+  padding:3%;
+  aspect-ratio: 1/1.2;
+  border:10px solid blue;
+  border-radius:100%;
+  margin: 0 2% 0 5%;
 }
 
 .fmain div .middle{
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: center;
+  justify-content: space-between;
+  align-items: start;
   
 }
+
+.fmain div .middle > *{
+ margin:1% 5% 1% 5%;
+}
+
+/* Four tabs section */
+
+
+  /* why liberate tab  */
+
+  .fmain .wlt img{
+  background-color: rgb(233, 41, 98);
+  padding:3%;
+  border:10px solid rgb(233, 41, 98);
+  border-radius:100%;
+  margin: 0 2% 0 5%;
+}
+ 
+
 
 /* .diagnostic::before {
   content: '';
