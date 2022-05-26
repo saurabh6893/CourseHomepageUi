@@ -506,6 +506,7 @@ footer {
 @media (max-width: 1430px) {
   body {
     background-color: red;
+    overflow-x: hidden;
   }
   .b {
     font-size: 1.2rem;
@@ -540,5 +541,11 @@ footer {
   }
   main {
     padding: 0;
+  }
+
+  @media (max-width: 720px) {
+    body {
+      overflow-x: hidden;
+    }
   }
 }
