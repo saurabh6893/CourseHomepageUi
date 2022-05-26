@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Didact+Gothic&family=IBM+Plex+Sans:wght@300;500&family=Koulen&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Didact+Gothic&family=IBM+Plex+Sans:wght@300;500&family=Koulen&family=Righteous&display=swap');
 
 :root {
   --blue: blue;
@@ -76,7 +76,7 @@ section {
   align-items: center;
   border-radius: 30px;
   font-weight: bold;
-  padding: 1% 2% 2% 2%;
+  padding: 1% 2% 5% 2%;
   font-family: 'Encode Sans Condensed', sans-serif;
 }
 
@@ -117,7 +117,7 @@ section {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 0 2% 0 1%;
+  padding: 10% 2% 0 1%;
   border-radius: 30px;
   align-items: center;
   margin-top: 3%;
@@ -151,9 +151,8 @@ section {
   position: relative;
   width: 85%;
   border-bottom: 1px solid grey;
-  padding:1% 5% 5% 5%;
+  padding: 1% 5% 5% 5%;
 }
-
 
 .crRank {
   display: flex;
@@ -173,13 +172,12 @@ section {
   color: transparent;
 }
 
-.ranktext{
+.ranktext {
   margin: 0;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: bold;
   font-size: 0.8em;
-  color:rgb(68, 68, 68);
-
+  color: rgb(68, 68, 68);
 }
 .crRank span sup {
   font-size: 0.5em;
@@ -191,7 +189,6 @@ section {
   width: 15%;
 }
 
-
 .lower div {
   display: block;
   font-size: 1.2em;
@@ -199,15 +196,15 @@ section {
   width: 100%;
 }
 
-.gr{
-  padding-top:10%;
-  padding-bottom:5%;
+.gr {
+  padding-top: 10%;
+  padding-bottom: 5%;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: bold;
 }
-.rd{
-  padding-top:5%;
-  padding-bottom:10%;
+.rd {
+  padding-top: 5%;
+  padding-bottom: 10%;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: bold;
 }
@@ -220,9 +217,7 @@ section {
 .rd span {
   color: rgb(255, 38, 31);
   font-size: 1.7em;
-  
 }
-
 
 aside {
   position: relative;
@@ -253,7 +248,7 @@ aside {
   align-items: center;
   font-size: 18px;
   width: 100%;
-  margin-bottom:3%;
+  margin-bottom: 3%;
 }
 
 .btop a {
@@ -262,12 +257,11 @@ aside {
   font-weight: bold;
   color: var(--blue);
   font-size: 1.1em;
-  margin-right:-17%;
+  margin-right: -17%;
 }
-.btop h1{
-  margin-left:-20%;
+.btop h1 {
+  margin-left: -20%;
 }
-
 
 .bbottom {
   display: flex;
@@ -281,27 +275,27 @@ aside {
   background-color: var(--back-color-2);
   /* box-shadow: var(--border); */
   text-align: center;
-  margin:0 13% 13% 13%;
-  padding:5%;
-  letter-spacing:2px;
-  border-radius:30px;
-  font-size:1.5em;
+  margin: 0 13% 13% 13%;
+  padding: 5%;
+  letter-spacing: 2px;
+  border-radius: 30px;
+  font-size: 1.5em;
 }
 
-.b>*{
-  margin:0;
-  line-height:2em;
+.b > * {
+  margin: 0;
+  line-height: 2em;
 }
 
-.b span{
-  color:rgb(68, 68, 68);
+.b span {
+  color: rgb(68, 68, 68);
   font-weight: bold;
   font-family: 'IBM Plex Sans', sans-serif;
-} 
+}
 
- .diagnostic {
-   margin-top:5%;
-   border: 2px solid black;
+.diagnostic {
+  margin-top: 5%;
+  border: 2px solid black;
   background-color: white;
   position: relative;
   display: flex;
@@ -310,10 +304,32 @@ aside {
   justify-content: center;
   align-items: center;
   border: 5px solid blue;
-  border-radius:30px;
+  border-radius: 30px;
 }
+.diagnostic button {
+  width: 80%;
+  background-image: var(--back-color);
+  border-radius: 30px;
+  padding: 3% 7%;
+  margin: 1.5%;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #fff;
+}
+/* .diagnostic::before{
+  content: "";
+  width: 30%;
+  height: 10%;
+  position: absolute;
+  top: 0;
+  right: 10%;
+  background-image:linear-gradient(to right bottom,rgb(0, 0, 255),rgb(0, 0, 122));
+  clip-path:polygon(0 0,100% 0,0% 50%,100% 80%);
+    
+   z-index: 5;
+} */
 
-.diagnostic img{
+.diagnostic img {
   position: relative;
   width: 70%;
   margin-bottom: 0.5%;
@@ -323,46 +339,51 @@ aside {
   background-position: center;
 }
 
-.qd{
+.qd {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 1%;
   padding: 1%;
+  text-align: center;
+}
+.qd > * {
+  font-size: 1.5rem;
+  margin: 0 30%;
 }
 
-footer{
+footer {
   margin-top: 2%;
   position: relative;
   width: auto;
   padding: 1%;
-  padding-bottom:1.5%;
-  border-radius:30px ;
-  background-color:white;
+  padding-bottom: 1.5%;
+  border-radius: 30px;
+  background-color: white;
 }
 
-.ltop a{
-  font-size:1.2em;
-  margin-right:5%;
-  text-decoration:none;
-  font-weight:bold;
+.ltop a {
+  font-size: 1.2em;
+  margin-right: 5%;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.ftask{
-  padding-bottom:1%;
+.ftask {
+  padding-bottom: 1%;
 }
 
-.fmain{
+.fmain {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
 }
 
-.fmain div{
+.fmain div {
   position: relative;
   background-color: rgb(255, 230, 234);
-  width: 40%;  
+  width: 40%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -374,16 +395,16 @@ footer{
   font-family: 'Encode Sans Condensed', sans-serif;
 }
 
-.fmain div img{
+.fmain div img {
   background-color: blue;
-  padding:3%;
+  padding: 3%;
   aspect-ratio: 1/1.2;
-  border:10px solid blue;
-  border-radius:100%;
+  border: 10px solid blue;
+  border-radius: 100%;
   margin: 0 2% 0 5%;
 }
 
-.fmain div .middle{
+.fmain div .middle {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -392,16 +413,16 @@ footer{
   background-color: rgb(255, 230, 234);
 }
 
-.fmain div .middle > *{
- margin:1% 5% 1% 5%;
+.fmain div .middle > * {
+  margin: 1% 5% 1% 5%;
 }
 
 /* Four tabs section */
 
-.fmain .mtt{
+.fmain .mtt {
   position: relative;
-  background-color:var(--back-color-2);
-  width: 40%;  
+  background-color: var(--back-color-2);
+  width: 40%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -413,42 +434,24 @@ footer{
   font-family: 'Encode Sans Condensed', sans-serif;
 }
 
-.fmain .mtt .middle{
-  background-color:var(--back-color-2);
+.fmain .mtt .middle {
+  background-color: var(--back-color-2);
 }
-  /* why liberate tab  */
+/* why liberate tab  */
 
-  .fmain .wlt img{
+.fmain .wlt img {
   background-color: rgb(233, 41, 98);
-  padding:3%;
-  border:10px solid rgb(233, 41, 98);
-  border-radius:100%;
+  padding: 3%;
+  border: 10px solid rgb(233, 41, 98);
+  border-radius: 100%;
   margin: 0 2% 0 5%;
 }
- 
- /* Weekly quiz tab */
-  .fmain .wlt{
-position: relative;
-  background-color: rgb(255, 222, 227);
-  width: 40%;  
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  border-radius: 30px;
-  font-weight: bold;
-  margin: 1% 2% 1% 2%;
-  padding: 1% 0 1% 0;
-  font-family: 'Encode Sans Condensed', sans-serif;  }
 
-.fmain .wlt .middle{
-  background-color: rgb(255, 222, 227);
-}
-
-.fmain .ppt{
+/* Weekly quiz tab */
+.fmain .wlt {
   position: relative;
-  background-color:var(--back-color-2);
-  width: 40%;  
+  background-color: rgb(255, 222, 227);
+  width: 40%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -460,55 +463,81 @@ position: relative;
   font-family: 'Encode Sans Condensed', sans-serif;
 }
 
-.fmain .ppt img{
+.fmain .wlt .middle {
+  background-color: rgb(255, 222, 227);
+}
+
+.fmain .ppt {
+  position: relative;
+  background-color: var(--back-color-2);
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 1% 2% 1% 2%;
+  padding: 1% 0 1% 0;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.fmain .ppt img {
   background-color: green;
-  border-color:green;
+  border-color: green;
 }
 
-.fmain .ppt .middle{
-  background-color:var(--back-color-2);
+.fmain .ppt .middle {
+  background-color: var(--back-color-2);
 }
 
-.fmain .wqt img{
-  background-color:rgb(255, 102, 0);
+.fmain .wqt img {
+  background-color: rgb(255, 102, 0);
   border-color: rgb(255, 102, 0);
 }
-
-
-/* //Primary Purpose Tab */
-/* .diagnostic::before {
-  content: '';
-  height: 50px;
-  width: 40%;
-  background-image: linear-gradient(#333, #332);
-  z-index: 2;
-} */
-/* }
-.diagnostic .btn {
-  background-image: var(--back-color);
-  position: absolute;
-  bottom: 50px;
-  right: 50%;
-  width: 80%;
-  white-space: nowrap;
-  transform: translateX(50%);
-
-  color: #fff;
-  font-weight: bold;
-  letter-spacing: 2px;
-  font-size: 1.2em;
-  border-radius: 50px;
-} */ 
-
-/*
-/*
-.underDiag {
-  background-image: url(./Assets/illustration-2.png);
-  border-radius: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 70%;
-  width: 100%;
-  position: relative;
-  background-position: center;
+@media (max-width: 1715px) {
+  body {
+    background-color: red;
+  }
+  .b {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 1430px) {
+  body {
+    background-color: red;
+  }
+  .b {
+    font-size: 1.2rem;
+    margin: 0 5% 13% 5%;
+  }
+}
+@media (max-width: 1240px) {
+  body {
+    padding: 0;
+  }
+  .mid {
+    flex-direction: column;
+  }
+  .mid > * {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .b {
+    font-size: 1rem;
+  }
+  footer {
+    padding: 0;
+    width: 100%;
+  }
+  .fmain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -60% 0 -60%;
+    padding-bottom: 10%;
+  }
+  main {
+    padding: 0;
+  }
 }
